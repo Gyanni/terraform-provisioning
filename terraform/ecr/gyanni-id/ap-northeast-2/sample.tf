@@ -6,7 +6,7 @@ resource "aws_ecr_repository" "demo" {
   image_tag_mutability = "IMMUTABLE"
 }
 resource "aws_ecr_repository_policy" "demo" {
-  repository = aws_ecr_repository.sample.name
+  repository = aws_ecr_repository.demo.name
   policy = jsonencode({
     "Version" : "2008-10-17",
     "Statement" : [

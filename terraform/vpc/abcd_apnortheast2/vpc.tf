@@ -9,7 +9,7 @@ resource "aws_vpc" "default" {
   }
 }
 
-# IPv6
+# IPv6!
 # resource "aws_egress_only_internet_gateway" "default" {
 #   vpc_id = aws_vpc.default.id
 

@@ -1,6 +1,18 @@
 version: 3
 automerge: true
 projects:
+  - name: vpc/abcd/apnortheast2
+    dir: terraform/vpc/abcd_apnortheast2
+    workspace: default
+    terraform_version: 1.5.7
+    autoplan:
+      when_modified: [
+         "*.tf"
+      ]
+      enabled: true
+    apply_requirements: []
+    workflow: id
+
   - name: ect/gyanni/ap-northeast-2
     dir: terraform/ecr/gyanni-id/ap-northeast-2
     workspace: default

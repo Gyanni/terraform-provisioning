@@ -327,12 +327,12 @@ workflows:
       steps:
         - init:
             extra_args: [
-              '-backend-config="role_arn=arn:aws:iam::066346343248:role/atlantis-gyanni-id-admin"',
+              '-backend-config="role_arn=arn:aws:iam::066346343248:role/atlantis-zerone-id-admin"',
               '-upgrade=false'
             ]
         - plan:
             extra_args: [
-              "-var 'assume_role_arn=arn:aws:iam::066346343248:role/atlantis-gyanni-id-admin'"
+              "-var 'assume_role_arn=arn:aws:iam::066346343248:role/atlantis-zerone-id-admin'"
             ]
     apply:
       steps:

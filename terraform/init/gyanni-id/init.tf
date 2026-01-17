@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "tfstate" {
-  bucket = "zerone-id-apnortheast2-tfstate"
+  bucket = "gyanni-id-apnortheast2-tfstate"
 }
 
 resource "aws_s3_bucket_versioning" "versioning" {

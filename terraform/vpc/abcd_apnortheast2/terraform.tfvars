@@ -1,4 +1,4 @@
-assume_role_arn    = "arn:aws:iam::289574460446:role/assume-id-admin"
+assume_role_arn    = "arn:aws:iam::289574460446:role/atlantis-gyanni-id-admin"
 product            = "abc"
 aws_region         = "ap-northeast-2"
 aws_short_region   = "apne2"
